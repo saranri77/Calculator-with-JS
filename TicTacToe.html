@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="TicTacToe.css">
+    <title> Tic Tac Toe
+    </title>
+    
+</head>
+
+<body bgcolor="paleblue">
+    <h1 id ='h1'>Tic Tac Toe game</h1>
+    <p id="p">Game starts with player x.</p>
+    
+    <div class="board">
+        <table>
+            <tr>
+                <td> <input class="cell" type="button" id="0" onclick="onClickCell(this)" /> </td>
+                <td> <input class="cell" type="button" id="1" onclick="onClickCell(this)" /> </td>
+                <td> <input class="cell" type="button" id="2" onclick="onClickCell(this)" /> </td>
+            </tr>
+            <tr>
+                <td> <input class="cell" type="button" id="3" onclick="onClickCell(this)" /> </td>
+                <td> <input class="cell" type="button" id="4" onclick="onClickCell(this)" /> </td>
+                <td> <input class="cell" type="button" id="5" onclick="onClickCell(this)" /> </td>
+            </tr>
+            <tr>
+                <td> <input class="cell" type="button" id="6" onclick="onClickCell(this)" /> </td>
+                <td> <input class="cell" type="button" id="7" onclick="onClickCell(this)" /> </td>
+                <td> <input class="cell" type="button" id="8" onclick="onClickCell(this)" /> </td>
+            </tr>
+        </table>
+        <div class="reset-button">
+            <button onclick="resetGame()">Reset</button>
+        </div>
+    </div>
+    <script src="TicTacToe.js"></script>
+</body>
+
+</html>
